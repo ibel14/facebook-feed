@@ -4,6 +4,7 @@ import './app.css';
 import AppHeader from '../app-header';
 import Search from '../search';
 import StatusFilter from '../status-filter';
+import Feed from '../feed';
 
 const App = () => {
 
@@ -15,7 +16,7 @@ const App = () => {
         <Search/>
         <StatusFilter/>
       </div>
-      
+      <Feed/>
     </div>
   );
 }

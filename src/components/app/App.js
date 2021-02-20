@@ -1,23 +1,13 @@
-import React, {useState} from 'react';
-import './App.css';
-import Search from '../search/search';
+import React from 'react';
+import './app.css';
 
-function App() {
+import AppHeader from '../app-header/';
 
-  const UpdateSearch = (filter) => {
-    setFilter(filter);
-  }
+const App = () => {
+
 
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-      <div className="search-panel d-flex">
-        <Search
-        UpdateSearch={UpdateSearch}/>
-
-      </div>
-    </div>
+      <AppHeader/>
   );
 }
 

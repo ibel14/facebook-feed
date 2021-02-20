@@ -12,7 +12,7 @@ function Search(UpdateSearch) {
         classname="form-control search-input"
         type="text"
         placeholder="Поиск на Facebook"
-        onChange={e => setTerm(e.target.value)}
+        onChange={e => setFilter(e.target.value)}
         />
     )
 }

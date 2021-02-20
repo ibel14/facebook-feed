@@ -1,20 +1,35 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 
-function Search(UpdateSearch) {
-    const [filter, setFilter] = useState('');
-
-    useEffect(() => {
-        UpdateSearch(filter)
-    })
-
+const Search = () => {
     return (
         <input
-        classname="form-control search-input"
+        className="form-control search-input"
         type="text"
         placeholder="Поиск на Facebook"
-        onChange={e => setFilter(e.target.value)}
         />
     )
 }
 
 export default Search;
+
+
+
+
+
+
+// function Search(UpdateSearch) {
+//     const [filter, setFilter] = useState('');
+
+//     useEffect(() => {
+//         UpdateSearch(filter)
+//     })
+
+//     return (
+//         <input
+//         classname="form-control search-input"
+//         type="text"
+//         placeholder="Поиск на Facebook"
+//         onChange={e => setFilter(e.target.value)}
+//         />
+//     )
+// }

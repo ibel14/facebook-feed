@@ -5,6 +5,7 @@ import AppHeader from '../app-header';
 import Search from '../search';
 import StatusFilter from '../status-filter';
 import Feed from '../feed';
+import FeedAddPost from '../feed-add-post';
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
         <StatusFilter/>
       </div>
       <Feed/>
+      <FeedAddPost/>
     </div>
   );
 }

@@ -7,7 +7,7 @@ const FeedItem = () => {
                     Facebook post
                 </span>
                 <div className="d-flex justify-content-center align-items-center">
-                    <button className="btn-star btn-sm">
+                    <button className="btn-star btn-sm" type="button">
                         <i className="fa fa-star"></i>
                     </button>
                 </div>

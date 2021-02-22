@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './feed-item.css';
+
 const FeedItem = () => {
     return (
         <li className="app-list-item d-flex justify-content-between">

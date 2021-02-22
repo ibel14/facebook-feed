@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './feed-add-post.css';
+
 const FeedAddPost = () => {
     return (
         <form className="bottom-panel d-flex">

@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './feed.css';
 import FeedItem from '../feed-item';
 
 const Feed = () => {

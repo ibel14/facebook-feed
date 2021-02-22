@@ -1,0 +1,8 @@
+.search-panel {
+  float: left;
+}
+
+.search-panel .search-input {
+  width: auto;
+  margin-right: 3px;
+}

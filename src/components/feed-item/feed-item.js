@@ -4,13 +4,13 @@ import './feed-item.css';
 
 const FeedItem = () => {
     return (
-        <li className="app-list-item d-flex justify-content-between">
-                <span className="app-list-item-label">
+        <li className="app-item flex-direction-column">
+                <span className="app-item-label">
                     Facebook post
                 </span>
-                <div className="d-flex justify-content-center align-items-center">
-                    <button className="btn-star btn-sm" type="button">
-                        <i className="fa fa-star"></i>
+                <div className="flex-direction-column">
+                    <button type="button">
+                        <i className="glyphicon glyphicon-thumbs-up"></i>
                     </button>
                 </div>
         </li>

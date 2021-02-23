@@ -1,8 +1,8 @@
-.search-panel {
-  float: left;
+.search {
+  justify-content: start;
 }
 
-.search-panel .search-input {
-  width: auto;
+.search .search-input {
+  width: 300px;
   margin-right: 3px;
 }

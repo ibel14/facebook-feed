@@ -10,13 +10,17 @@ const App = () => {
 
 
   return (
-    <div className="app"> 
-      <div className="search-panel">
+    <div>
+      <div className="appheader">
+        <AppHeader/>
+      </div>
+      <div className="search">
         <Search/>
       </div>
-        <AppHeader/>
-      <Feed/>
-      <FeedAddPost/>
+      <div className="app">
+        <FeedAddPost/>
+        <Feed/>
+      </div>
     </div>
   );
 }

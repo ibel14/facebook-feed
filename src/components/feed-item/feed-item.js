@@ -1,4 +1,5 @@
 import React from 'react';
+import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 
 import './feed-item.css';
 
@@ -9,9 +10,9 @@ const FeedItem = () => {
                     Facebook post
                 </span>
                 <div className="flex-direction-column">
-                    <button type="button">
-                        <i className="glyphicon glyphicon-thumbs-up"></i>
-                    </button>
+                    <ThumbUpAltIcon type="button">
+                        <i className=""></i>
+                    </ThumbUpAltIcon>
                 </div>
         </li>
     )

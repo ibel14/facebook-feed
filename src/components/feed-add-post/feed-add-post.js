@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from "@material-ui/core/Button";
+
 
 import './feed-add-post.css';
 
@@ -10,10 +12,13 @@ const FeedAddPost = () => {
                 placeholder="Что у вас нового, Igor?"
                 className="form-control new-post-label"
             />
-            <button
+            <Button
+                variant="contained" 
+                color="secondary"
                 type="submit"
                 className="btn btn-outline-secondary">
-                Опубликовать</button>
+                Опубликовать
+            </Button>
         </form>
     )
 }

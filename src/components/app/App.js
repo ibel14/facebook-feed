@@ -6,7 +6,7 @@ import Search from '../search';
 import Feed from '../feed';
 import FeedAddPost from '../feed-add-post';
 
-const App = () => {
+function App() {
 
 
   return (

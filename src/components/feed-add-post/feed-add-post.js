@@ -14,7 +14,7 @@ const FeedAddPost = () => {
             />
             <Button
                 variant="contained" 
-                color="secondary"
+                color="primary"
                 type="submit"
                 className="btn btn-outline-secondary">
                 Опубликовать

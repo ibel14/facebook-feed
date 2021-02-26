@@ -36,11 +36,11 @@ const FeedItem = (props) => {
             </Menu>
             </div>
 
-                <div className="user">User</div>
+                <div className="user">user</div>
                 <span className="app-item-label">
                     {props.label}
                 </span>
-                <img className="feed-img" src='url' alt='img'></img>
+                <img className="feed-img" src='url' alt='title'></img>
                 <div className="flex-direction-column">
                     <ThumbUpAltIcon type="button">
                         <i className=""></i>

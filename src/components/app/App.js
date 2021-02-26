@@ -4,6 +4,9 @@ import './app.css';
 import AppHeader from '../app-header';
 import Feed from '../feed';
 import FeedAddPost from '../feed-add-post';
+import SideBar from '../side-bar';
+import Contacts from '../contacts';
+
 
 function App() {
 
@@ -13,6 +16,8 @@ function App() {
       <div className="appheader">
         <AppHeader/>
       </div>
+      <SideBar/>
+      <Contacts/>
       <div className="app">
         <FeedAddPost/>
         <Feed/>

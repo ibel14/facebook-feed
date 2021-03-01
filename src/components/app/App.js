@@ -8,7 +8,7 @@ import SideBar from '../side-bar';
 import Contacts from '../contacts';
 
 
-function App() {
+const App = () => {
 
 
   return (
@@ -16,8 +16,12 @@ function App() {
       <div className="appheader">
         <AppHeader/>
       </div>
-      <SideBar/>
+
+      <div className="sidebars">
       <Contacts/>
+      <SideBar/>
+      </div>
+
       <div className="app">
         <FeedAddPost/>
         <Feed/>

@@ -1,40 +1,37 @@
-// import React from 'react'; // Хуй что работает, просто готовый компонент слайдера, надо переписать - https://mui.wertarbyte.com/#autorotatingcarousel
+import React from "react";
+import Slider from "react-slick";
 
-// import AutoRotatingCarousel from 'material-auto-rotating-carousel';
+const TestSlider = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
 
-//     const Slide = require('./Slide').default;
-//     const { red, blue, green } = require('@material-ui/core/colors');
-//     const Button = require('@material-ui/core/Button').default;
+  return (
+    <Slider {...settings}>
+      <div>
+        <h3>1</h3>
+      </div>
+      <div>
+        <h3>2</h3>
+      </div>
+      <div>
+        <h3>3</h3>
+      </div>
+      <div>
+        <h3>4</h3>
+      </div>
+      <div>
+        <h3>5</h3>
+      </div>
+      <div>
+        <h3>6</h3>
+      </div>
+    </Slider>
+  );
+}
 
-//     <div style={{ position: 'relative', width: '100%', height: 500 }}>
-//     <Button onClick={true}>Open carousel</Button>
-//     <AutoRotatingCarousel
-//         label='Get started'
-//         onClose={false}
-//         onStart={false}
-//         style={{ position: 'absolute' }}
-//     >
-//         <Slide
-//         media={<img src='http://www.icons101.com/icon_png/size_256/id_79394/youtube.png' alt='' />}
-//         mediaBackgroundStyle={{ backgroundColor: red[400] }}
-//         style={{ backgroundColor: red[600] }}
-//         title='This is a very cool feature'
-//         subtitle='Just using this will blow your mind.'
-//         />
-//         <Slide
-//         media={<img src='http://www.icons101.com/icon_png/size_256/id_80975/GoogleInbox.png' alt='' />}
-//         mediaBackgroundStyle={{ backgroundColor: blue[400] }}
-//         style={{ backgroundColor: blue[600] }}
-//         title='Ever wanted to be popular?'
-//         subtitle='Well just mix two colors and your are good to go!'
-//         />
-//         <Slide
-//         media={<img src='http://www.icons101.com/icon_png/size_256/id_76704/Google_Settings.png' alt='' />}
-//         mediaBackgroundStyle={{ backgroundColor: green[400] }}
-//         style={{ backgroundColor: green[600] }}
-//         title='May the force be with you'
-//         subtitle='The Force is a metaphysical and ubiquitous power in the Star Wars fictional universe.'
-//         />
-//     </AutoRotatingCarousel>
-//     </div>
-// }
+export default TestSlider;

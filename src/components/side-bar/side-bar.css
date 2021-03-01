@@ -1,7 +1,10 @@
-.bar-list {
-    margin-top: 100px;
-}
 .bar-list .list-group {
   padding: 20px 35px 10px 35px;
   margin-top: 10px;
+}
+
+.sidebars {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }

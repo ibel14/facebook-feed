@@ -6,6 +6,7 @@ import Feed from '../feed';
 import FeedAddPost from '../feed-add-post';
 import SideBar from '../side-bar';
 import Contacts from '../contacts';
+import CarouselStories from '../carousel/carousel';
 
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
       <div className="appheader">
         <AppHeader/>
       </div>
-
+      <CarouselStories/>
       <div className="sidebars">
       <Contacts/>
       <SideBar/>

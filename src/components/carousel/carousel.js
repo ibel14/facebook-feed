@@ -1,34 +1,27 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Carousel from "react-elastic-carousel";
-import Item from "./Item";
+import Item from "./item";
 import "./carousel.css";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 2 },
+  { width: 550, itemsToShow: 2, itemsToScroll: 2 },
   { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 },
+  { width: 1200, itemsToShow: 4 }
 ];
 
-const CarouselStories = () => {
+function CarouselStories() {
   return (
-    <>
-      <div className="Carousel">
-        <Carousel breakPoints={breakPoints}>
-          <Item>One</Item>
-          <Item>Two</Item>
-          <Item>Three</Item>
-          <Item>Four</Item>
-          <Item>Five</Item>
-          <Item>Six</Item>
-          <Item>Seven</Item>
-          <Item>Eight</Item>
-        </Carousel>
-      </div>
-    </>
+    <div className="Carousel">
+      <Carousel breakPoints={breakPoints}>
+        <Item>Создать историю</Item>
+        <Item>2</Item>
+        <Item>3</Item>
+        <Item>4</Item>
+        <Item>5</Item>
+      </Carousel>
+    </div>
   );
 }
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<CarouselStories />, rootElement);
+export default CarouselStories;

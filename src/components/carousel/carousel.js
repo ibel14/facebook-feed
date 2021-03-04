@@ -5,9 +5,9 @@ import "./carousel.css";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-  { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 }
+  { width: 550, itemsToShow: 4, itemsToScroll: 1 },
+  { width: 768, itemsToShow: 5 },
+  { width: 1200, itemsToShow: 5 }
 ];
 
 function CarouselStories() {
@@ -15,10 +15,10 @@ function CarouselStories() {
     <div className="Carousel">
       <Carousel breakPoints={breakPoints}>
         <Item>Создать историю</Item>
-        <Item>2</Item>
-        <Item>3</Item>
-        <Item>4</Item>
-        <Item>5</Item>
+        <Item>Stories</Item>
+        <Item>Stories</Item>
+        <Item>Stories</Item>
+        <Item>Stories</Item>
       </Carousel>
     </div>
   );

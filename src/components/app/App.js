@@ -23,7 +23,7 @@ const App = () => {
       <SideBar/>
       </div>
 
-      <div className="app">
+      <div className="feed">
         <FeedAddPost/>
         <Feed/>
       </div>

@@ -5,6 +5,6 @@ export default styled.div`
   justify-content: center;
   align-items: center;
   height: 150px;
-  width: 100px;
+  width: 150px;
   background-color: #303031;
 `;

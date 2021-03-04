@@ -3,14 +3,16 @@ import React from 'react';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import Avatar from '@material-ui/core/Avatar';
 
+
 import './app-header.css';
 
 const AppHeader = () => {
 
     return (
         <div className="appheader">
+      
             <div className="profile-img">
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <Avatar alt="Remy Sharp" src="/" />
             </div>
             <h1>Roberto</h1>
 

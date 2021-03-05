@@ -20,20 +20,21 @@ const FeedItem = (props) => {
     };
 
     return (
-        <li className="app-item flex-direction-column">
+        <>
+        <li className="feed-item">
             <div>
                 <MoreHorizIcon aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}/>
                 <Menu
-                id="simple-menu"
-                anchorEl={anchorEl}
-                keepMounted
-                open={Boolean(anchorEl)}
-                onClose={handleClose}
+                    id="simple-menu"
+                    anchorEl={anchorEl}
+                    keepMounted
+                    open={Boolean(anchorEl)}
+                    onClose={handleClose}
                 >
-                <MenuItem onClick={handleClose}>Save</MenuItem>
-                <MenuItem onClick={handleClose}>Hide this post</MenuItem>
-                <MenuItem onClick={handleClose}>Complain</MenuItem>
-            </Menu>
+                    <MenuItem onClick={handleClose}>Save</MenuItem>
+                    <MenuItem onClick={handleClose}>Hide this post</MenuItem>
+                    <MenuItem onClick={handleClose}>Complain</MenuItem>
+                </Menu>
             </div>
 
                 <div className="user">user</div>
@@ -53,6 +54,7 @@ const FeedItem = (props) => {
                     </p>
                 </div>
         </li>
+        </>
     )
 }
 

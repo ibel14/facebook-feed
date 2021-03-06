@@ -7,10 +7,14 @@
 .appheader h1 {
   font-size: 20px;
   padding-top: 7px;
-  margin-right: 10px;
 }
 
 .search-input {
   width: 300px;
-  margin-right: 950px;
+  margin-right: 980px;
+}
+
+.profile {
+  display: flex;
+  margin-right: 20px;
 }

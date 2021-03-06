@@ -1,0 +1,24 @@
+.feed-item {
+  position: relative;
+  display: flex;
+  font-size: 1.25rem;
+  list-style-type: none;
+}
+
+.menu-feed, .share-comments {
+  float: right;
+}
+
+.share-comments {
+  display: flex;
+  position: relative;
+}
+
+p {
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.user {
+  display: flex;
+}

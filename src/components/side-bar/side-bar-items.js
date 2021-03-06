@@ -8,7 +8,12 @@ const BarItems = (props) => {
         <li className="bar-items flex-direction-column">
             <div>
             <span className="bar-item-label">
-                {props.label}
+                <button
+                variant="contained" 
+                color="primary"
+                type="submit"
+                className="btn btn-outline-secondary"
+                >{props.label}</button>
             </span>
             </div>
         </li>

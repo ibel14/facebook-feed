@@ -8,7 +8,12 @@ const ContactItems = (props) => {
         <li className="contacts-items justify-content-flex-end">
             <div>
             <span className="contacts-item-label">
-                {props.label}
+                <button
+                variant="contained" 
+                color="primary"
+                type="submit"
+                className="btn btn-outline-secondary"
+                >{props.label}</button>
             </span>
             </div>
         </li>

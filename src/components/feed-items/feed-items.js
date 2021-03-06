@@ -4,8 +4,10 @@ import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
+import { Avatar } from '@material-ui/core';
 
-import './feed-item.css';
+
+import './feed-items.css';
 
 const FeedItem = (props) => {
 
@@ -22,7 +24,8 @@ const FeedItem = (props) => {
     return (
         <>
         <li className="feed-item">
-            <div>
+            <section>
+            <div className="menu-feed">
                 <MoreHorizIcon aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}/>
                 <Menu
                     id="simple-menu"
@@ -36,23 +39,30 @@ const FeedItem = (props) => {
                     <MenuItem onClick={handleClose}>Complain</MenuItem>
                 </Menu>
             </div>
+            
+                <div className="user">
+                    <Avatar/>
+                    {props.user}
+                </div>
 
-                <div className="user">user</div>
                 <span className="app-item-label">
                     {props.label}
                 </span>
-                <img className="feed-img" src='url' alt='title'></img>
-                <div className="flex-direction-column">
-                    <ThumbUpAltIcon type="button">
-                        <i className=""></i>
-                    </ThumbUpAltIcon>
-                    <p className="share">
-                        Поделились: {'3'}
-                    </p>
-                    <p className="comments">
-                        Комментарии: {'6'}
-                    </p>
+
+                <img className="feed-img" src='url' alt='/'></img>
+                <div className="counters">
+                    <ThumbUpAltIcon 
+                    variant="containted"
+                    color="primary"
+                    type="button"
+                    />
+                    
                 </div>
+                <div className="share-comments">
+                    <p>Поделились: {props.share}</p>
+                    <p>Комментарии: {props.comments}</p>
+                </div>
+                </section>
         </li>
         </>
     )

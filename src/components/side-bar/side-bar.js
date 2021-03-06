@@ -5,8 +5,9 @@ import BarItems from './side-bar-items';
 
 const SideBar = () => {
     return (
-        <ul className="bar-list list-group">
-            <BarItems label='Roberto Diaz'/>
+        <>
+        <ul>
+            <BarItems label='Igor Belousov'/>
             <BarItems label='Поиск друзей'/>
             <BarItems label='Страницы'/>
             <BarItems label='Группы'/>
@@ -15,6 +16,7 @@ const SideBar = () => {
             <BarItems label='Воспоминания'/>
             <BarItems label='Сохраненное'/>
         </ul>
+        </>
     )
 }
 

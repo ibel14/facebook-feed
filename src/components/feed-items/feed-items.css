@@ -3,6 +3,10 @@
   display: flex;
   font-size: 1.25rem;
   list-style-type: none;
+  background-color: #232626;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
 }
 
 .menu-feed, .share-comments {
@@ -21,4 +25,9 @@ p {
 
 .user {
   display: flex;
+  margin-bottom: 15px;
+}
+
+.avatar-img {
+  margin-right: 10px;
 }

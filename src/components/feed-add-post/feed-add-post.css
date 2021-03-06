@@ -1,9 +1,11 @@
 .bottom-panel {
-  margin-top: 20px;
+  margin-top: -310px;
 }
 
 .bottom-panel {
   width: auto;
-  flex-grow: 1;
   margin-right: 3px;
+  background-color: #232626;
+  border-radius: 8px;
+  padding: 30px;
 }

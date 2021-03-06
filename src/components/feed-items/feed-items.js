@@ -41,15 +41,15 @@ const FeedItem = (props) => {
             </div>
             
                 <div className="user">
-                    <Avatar/>
+                    <Avatar className="avatar-img"/>
                     {props.user}
                 </div>
 
                 <span className="app-item-label">
                     {props.label}
                 </span>
+                <img className="post-img" src={props.url} alt=''></img>
 
-                <img className="feed-img" src='url' alt='/'></img>
                 <div className="counters">
                     <ThumbUpAltIcon 
                     variant="containted"

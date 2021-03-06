@@ -1,22 +1,21 @@
 import React from 'react';
 
 import './side-bar';
+import { Avatar } from '@material-ui/core';
 
 const BarItems = (props) => {
 
     return (
-        <li className="bar-items flex-direction-column">
-            <div>
+        <>
+        <li className="bar-items">
+            
+                <Avatar className="avatar-img"/>
             <span className="bar-item-label">
-                <button
-                variant="contained" 
-                color="primary"
-                type="submit"
-                className="btn btn-outline-secondary"
-                >{props.label}</button>
+                <button>{props.label}</button>
             </span>
-            </div>
+        
         </li>
+        </>
     )
 }
 

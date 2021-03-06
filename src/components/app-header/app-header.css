@@ -1,7 +1,7 @@
 .appheader {
+  width: auto;
   display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse;
+  justify-content: space-around;
 }
 
 .appheader h1 {
@@ -10,8 +10,11 @@
 }
 
 .search-input {
-  width: 300px;
-  margin-right: 980px;
+  width: 200px;
+  height: 50px;
+  background: #3A3B3C;
+  float: left;
+  border-radius: 10px;
 }
 
 .profile {

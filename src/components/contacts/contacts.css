@@ -11,7 +11,7 @@ h5 {
     display: flex;
     border-bottom: 2px solid #3D4042;
     margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: -10px;
 }
 
 .menu-feed {

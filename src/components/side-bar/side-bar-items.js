@@ -10,7 +10,7 @@ const BarItems = (props) => {
         <li className="bar-items">
             
                 <Avatar className="avatar-img"/>
-            <span className="bar-item-label">
+            <span>
                 <button>{props.label}</button>
             </span>
         

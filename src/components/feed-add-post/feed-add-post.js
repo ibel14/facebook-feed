@@ -6,20 +6,39 @@ import './feed-add-post.css';
 
 const FeedAddPost = () => {
     return (
-        <form className="bottom-panel d-flex">
+    <>
+        <div className="add-content-panel">
             <input
                 type="text"
                 placeholder="Что у вас нового, Igor?"
                 className="form-control new-post-label"
             />
+
+            <div className="btn-add">
             <Button
                 variant="contained" 
                 color="primary"
                 type="submit"
                 className="btn btn-outline-secondary">
-                Опубликовать
+                Прямой эфир
             </Button>
-        </form>
+            <Button
+                variant="contained" 
+                color="primary"
+                type="submit"
+                className="btn btn-outline-secondary">
+                Фото/видео
+            </Button>
+            <Button
+                variant="contained" 
+                color="primary"
+                type="submit"
+                className="btn btn-outline-secondary">
+                Чувства/действия
+            </Button>
+            </div>
+        </div>
+    </>
     )
 }
 

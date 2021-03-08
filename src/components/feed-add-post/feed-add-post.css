@@ -1,11 +1,15 @@
-.bottom-panel {
-  margin-top: -310px;
-}
-
-.bottom-panel {
-  width: auto;
-  margin-right: 3px;
+.add-content-panel {
+  margin-top: -410px;
   background-color: #232626;
   border-radius: 8px;
   padding: 30px;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+.btn-add {
+  display: flex;
+  justify-content: space-around;
 }

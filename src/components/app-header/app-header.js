@@ -33,7 +33,7 @@ const AppHeader = () => {
             />
 
 
-            <div className="nav-panel">
+            <span className="nav-panel">
                 <HomeIcon
                 classname="logo"
                 type="button"
@@ -68,7 +68,7 @@ const AppHeader = () => {
                 color="white"
                 style={{ fontSize: 50 }}
                 />
-            </div>
+            </span>
 
             <div className="profile">
                 <h1>Igor</h1>

@@ -11,6 +11,12 @@ import CarouselStories from '../carousel/carousel';
 
 const App = () => {
 
+  // const addPost = (body) => {
+  //   const newItem = {
+  //     label: body
+
+  //   }
+  // }
 
   return (
     <div>
@@ -24,7 +30,9 @@ const App = () => {
       </div>
 
       <div className="feed">
-        <FeedAddPost/>
+        <FeedAddPost
+            // onAdd={addPost}   
+            />
         <Feed/>
       </div>
     </div>

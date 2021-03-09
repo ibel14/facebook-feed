@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import Menu from '@material-ui/core/Menu';
@@ -20,6 +20,8 @@ const FeedItem = (props) => {
     const handleClose = () => {
     setAnchorEl(null);
     };
+
+    const [count, setCount] = useState(0);
 
     return (
         <>
@@ -55,7 +57,9 @@ const FeedItem = (props) => {
                     variant="containted"
                     color="primary"
                     type="button"
+                    onClick={() => setCount(count +1)}
                     />
+                    <p>{count}</p>
                     
                 </div>
                 <div className="share-comments">

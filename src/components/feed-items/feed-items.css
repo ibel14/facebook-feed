@@ -31,3 +31,7 @@ p {
 .avatar-img {
   margin-right: 10px;
 }
+
+.counters {
+  display: flex;
+}

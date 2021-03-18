@@ -5,11 +5,13 @@
   padding: 30px;
 }
 
-input {
+.top-part {
+  display: flex;
+  flex-direction: row;
   margin-bottom: 20px;
 }
 
-.btn-add {
+.bottom-part {
   display: flex;
   justify-content: space-around;
 }

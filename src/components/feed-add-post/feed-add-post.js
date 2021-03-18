@@ -8,15 +8,25 @@ const FeedAddPost = () => {
     return (
     <>
         <div className="add-content-panel">
-            <div className="input-add-btn">
-            <input
-                type="text"
-                placeholder="Что у вас нового, Igor?"
-                className="form-control new-post-label"
-            />
-            </div>
 
-            <div className="btn-add">
+            <div className="top-part">
+                <input
+                    className="form-control new-post-label"
+                    type="text"
+                    placeholder="Что у вас нового, Igor?"
+                />
+                <Button
+                    variant="contained" 
+                    color="primary"
+                    type="submit"
+                    className="btn btn-outline-secondary"
+                    >
+                    Опубликовать
+                </Button>
+            </div>
+        
+
+            <div className="bottom-part">
             <Button
                 variant="contained" 
                 color="primary"
